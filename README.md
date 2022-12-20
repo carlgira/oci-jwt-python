@@ -2,8 +2,6 @@
 Script to use python to generate a JWT for OCI confidential applications.
 
 ## Prerequisites
-- Python 
-
 - Clone the repo
 ```bash
 git clone https://github.com/carlgira/oci-jwt-python.git
