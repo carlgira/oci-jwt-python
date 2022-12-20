@@ -21,12 +21,12 @@ Section *Prerequisites for JWT User Assertion*
 
 ## Docs
 The script has one single function (get_token) with all the parameters required to generate the JWT token.
-- idcs_url: The URL of the Identity Cloud Service (IDCS) instance.
-- client_id: The client ID of the application.
-- client_secret: The client secret of the application.
-- cert_alias: The alias of the certificate used.
-- scope: The scope configured in the confidential application.
-- private_key: The private key used to sign the JWT token. (This can be read from a file, or you can get it from a secret in an OCI vault)
+- **idcs_url:** The URL of the Identity Cloud Service (IDCS) instance.
+- **client_id:** The client ID of the application.
+- **client_secret:** The client secret of the application.
+- **cert_alias:** The alias of the certificate used.
+- **scope:** The scope configured in the confidential application.
+- **private_key:** The private key used to sign the JWT token. (This can be read from a file, or you can get it from a secret in an OCI vault)
 
 ## Test
 Open the test.py file, add the parameters required. Run the script to generate the JWT token.
