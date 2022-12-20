@@ -19,7 +19,7 @@ Read the instructions in the official documentation to create the confidential a
 Section *Prerequisites for JWT User Assertion* 
 - https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-adapter/authentication-support.html#GUID-33BDEC15-CEC5-4535-8C71-FBA1A37BD7A3
 
-## Run
+## Docs
 The script has one single function (get_token) with all the parameters required to generate the JWT token.
 - idcs_url: The URL of the Identity Cloud Service (IDCS) instance.
 - client_id: The client ID of the application.
