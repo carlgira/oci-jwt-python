@@ -8,13 +8,11 @@ Script to use python to generate a JWT for OCI confidential applications.
 ```bash
 git clone https://github.com/carlgira/oci-jwt-python.git
 ```
-- Install the requirements
+- Create virtualenv, activate the environment, and install the requirements. 
 ```bash
-pip install -r requirements.txt
-```
-- Activate the virtual environment
-```bash
+python -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Instructions
